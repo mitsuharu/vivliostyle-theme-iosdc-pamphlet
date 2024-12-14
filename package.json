@@ -1,0 +1,61 @@
+{
+  "name": "@mitsuharu/vivliostyle-theme-iosdc-pamphlet",
+  "description": "It is vivliostyle Theme for iOSDC Pamphlet",
+  "version": "0.1.0",
+  "author": "Mitsuharu Emoto <mthr1982@gmail.com>",
+  "main": "theme.css",
+  "scripts": {
+    "start": "vivliostyle build && open ./book.pdf",
+    "build": "vivliostyle build",
+    "open": "open ./book.pdf",
+    "preview": "vivliostyle preview",
+    "validate": "vivliostyle-theme-scripts validate"
+  },
+  "dependencies": {
+    "@vivliostyle/theme-base": "latest",
+    "@vivliostyle/theme-techbook": "latest"
+  },
+  "devDependencies": {
+    "@vivliostyle/cli": "^8.16.0",
+    "vivliostyle-theme-scripts": "^0.3.5"
+  },
+  "peerDependencies": {
+    "@vivliostyle/cli": ">=8.16.0"
+  },
+  "peerDependenciesMeta": {
+    "@vivliostyle/cli": {
+      "optional": true
+    }
+  },
+  "files": [
+    "*.css",
+    "example",
+    "vivliostyle.config.js"
+  ],
+  "keywords": [
+    "vivliostyle",
+    "vivliostyle-theme",
+    "iOSDC"
+  ],
+  "license": "MIT",
+  "vivliostyle": {
+    "theme": {
+      "name": "vivliostyle-theme-iosdc-pamphlet",
+      "author": "Mitsuharu Emoto <mthr1982@gmail.com>",
+      "style": "theme.css",
+      "category": "misc",
+      "topics": [
+        "iOSDC"
+      ]
+    }
+  },
+  "repository": "https://github.com/mitsuharu/vivliostyle-theme-iosdc-pamphlet",
+  "bugs": {
+    "url": "https://github.com/mitsuharu/vivliostyle-theme-noto-sans-jp/issues"
+  },
+  "homepage": "https://github.com/mitsuharu/vivliostyle-theme-noto-sans-jp#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "packageManager": "yarn@4.5.3"
+}
