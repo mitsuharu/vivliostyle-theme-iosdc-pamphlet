@@ -1,6 +1,6 @@
 {
   "name": "@mitsuharu/vivliostyle-theme-iosdc-pamphlet",
-  "description": "It is vivliostyle Theme for iOSDC Pamphlet",
+  "description": "It is vivliostyle theme for iOSDC Pamphlet",
   "version": "0.1.0",
   "author": "Mitsuharu Emoto <mthr1982@gmail.com>",
   "main": "theme.css",
