@@ -1,4 +1,7 @@
-@charset "UTF-8";
+@import url(../@vivliostyle/theme-base/theme-all.css);
+@import url(../@vivliostyle/theme-base/css/lib/prism/base.css);
+@import url(../@vivliostyle/theme-base/css/lib/prism/theme-okaidia.css);
+@import url(../@vivliostyle/theme-techbook/theme.css);
 
 code[class*=language-],
 pre[class*=language-] {
