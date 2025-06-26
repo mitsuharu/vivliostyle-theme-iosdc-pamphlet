@@ -6,7 +6,7 @@
   "main": "theme.css",
   "scripts": {
     "start": "vivliostyle build && open ./book.pdf",
-    "build": "vivliostyle build",
+    "pdf": "vivliostyle build",
     "open": "open ./book.pdf",
     "preview": "vivliostyle preview",
     "validate": "vivliostyle-theme-scripts validate"
@@ -57,5 +57,5 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "packageManager": "yarn@4.5.3"
+  "packageManager": "yarn@4.9.2"
 }
