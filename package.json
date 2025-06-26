@@ -1,26 +1,26 @@
 {
   "name": "@mitsuharu/vivliostyle-theme-iosdc-pamphlet",
   "description": "It is vivliostyle theme for iOSDC Japan pamphlet",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "author": "Mitsuharu Emoto <mthr1982@gmail.com>",
   "main": "theme.css",
   "scripts": {
-    "start": "vivliostyle build && open ./book.pdf",
+    "start": "vivliostyle build && open ./dist/book.pdf",
     "pdf": "vivliostyle build",
-    "open": "open ./book.pdf",
+    "open": "open ./dist/book.pdf",
     "preview": "vivliostyle preview",
     "validate": "vivliostyle-theme-scripts validate"
   },
   "dependencies": {
-    "@vivliostyle/theme-base": "1.0.1",
-    "@vivliostyle/theme-techbook": "1.0.1"
+    "@vivliostyle/theme-base": "2.0.0",
+    "@vivliostyle/theme-techbook": "2.0.0"
   },
   "devDependencies": {
-    "@vivliostyle/cli": "^8.16.0",
-    "vivliostyle-theme-scripts": "^0.3.5"
+    "@vivliostyle/cli": "^9.3.0",
+    "vivliostyle-theme-scripts": "^0.3.6"
   },
   "peerDependencies": {
-    "@vivliostyle/cli": ">=8.16.0"
+    "@vivliostyle/cli": ">=9.3.0"
   },
   "peerDependenciesMeta": {
     "@vivliostyle/cli": {

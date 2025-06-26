@@ -8,6 +8,6 @@ module.exports = {
   entry: ['example/default.md'],
   workspaceDir: '.vivliostyle',
   output: [
-    'book.pdf'
+    'dist/book.pdf'
   ],
 };
