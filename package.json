@@ -12,8 +12,8 @@
     "validate": "vivliostyle-theme-scripts validate"
   },
   "dependencies": {
-    "@vivliostyle/theme-base": "1.0.1",
-    "@vivliostyle/theme-techbook": "1.0.1"
+    "@vivliostyle/theme-base": "2.0.0",
+    "@vivliostyle/theme-techbook": "2.0.0"
   },
   "devDependencies": {
     "@vivliostyle/cli": "^9.3.1",
