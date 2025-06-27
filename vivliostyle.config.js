@@ -7,7 +7,5 @@ module.exports = {
   ],
   entry: ['example/default.md'],
   workspaceDir: '.vivliostyle',
-  output: [
-    'dist/book.pdf'
-  ],
-};
+  output: ['dist/book.pdf'],
+}
