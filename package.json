@@ -16,11 +16,11 @@
     "@vivliostyle/theme-techbook": "1.0.1"
   },
   "devDependencies": {
-    "@vivliostyle/cli": "^8.16.0",
-    "vivliostyle-theme-scripts": "^0.3.5"
+    "@vivliostyle/cli": "^9.3.1",
+    "vivliostyle-theme-scripts": "^0.3.6"
   },
   "peerDependencies": {
-    "@vivliostyle/cli": ">=8.16.0"
+    "@vivliostyle/cli": ">=9.3.1"
   },
   "peerDependenciesMeta": {
     "@vivliostyle/cli": {
