@@ -390,7 +390,7 @@ __metadata:
   resolution: "@mitsuharu/vivliostyle-theme-iosdc-pamphlet@workspace:."
   dependencies:
     "@biomejs/biome": "npm:^2.0.5"
-    "@vivliostyle/cli": "npm:^9.3.1"
+    "@vivliostyle/cli": "npm:^9.3.2"
     "@vivliostyle/theme-base": "npm:2.0.0"
     "@vivliostyle/theme-techbook": "npm:2.0.0"
     vivliostyle-theme-scripts: "npm:^0.3.6"
@@ -1125,9 +1125,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vivliostyle/cli@npm:^9.3.1":
-  version: 9.3.1
-  resolution: "@vivliostyle/cli@npm:9.3.1"
+"@vivliostyle/cli@npm:^9.3.2":
+  version: 9.3.2
+  resolution: "@vivliostyle/cli@npm:9.3.2"
   dependencies:
     "@babel/code-frame": "npm:7.26.2"
     "@humanwhocodes/momoa": "npm:3.3.8"
@@ -1179,7 +1179,7 @@ __metadata:
   bin:
     vivliostyle: dist/cli.js
     vs: dist/cli.js
-  checksum: 10c0/054617b1f0b1cc76e77bd24fb4ada487542ea96f596536adee6aae86fef187a9a885961cd513f340fb50bded2b3141f1427cbae156bc8962dda9a11a0a5c1b8e
+  checksum: 10c0/d38494d776e5ae0b07671616c8c290a22a25b2d8805010bfa13816647c209044e8b41bf051b9cef0fc1b6db983f9d7f08aa4371f7e3e23ae1e672751e130cd60
   languageName: node
   linkType: hard
 
