@@ -6,7 +6,7 @@ This is a Vivliostyle theme for techbook of iOSDC Japan pamphlet.
 
 ## Required
 
-- @vivliostyle/cli >= 9.3.1
+- @vivliostyle/cli >= 9.3.2
 
 ## Use
 
