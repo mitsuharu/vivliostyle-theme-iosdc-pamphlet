@@ -154,6 +154,18 @@ pre[class*="language-"] {
   column-gap: 10mm;
 }
 
+/* 最初のページの左段の先頭に空白ができるのを防ぐ */
+p {
+  margin-break: discard;
+}
+
+/* 著者の所属など */
+.affiliation {
+  float: block-end;
+  float-reference: column;
+  border-block-start: thin solid currentcolor;
+}
+
 header {
   float: block-start;
   float-reference: page;
