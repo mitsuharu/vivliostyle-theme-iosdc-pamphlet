@@ -6,6 +6,10 @@ name: Check npm packages by AikidoSec Safe Chain
 env:
   AIKIDO_SAFE_CHAIN_VERSION: '1.5.20'
   AIKIDO_SAFE_CHAIN_INSTALLER_SHA256: '0ad25efe15d1fa56105157a454d647223e78eb0c53d1f85e3d10afcd722e7bfd'
+  # .yarnrc.yml の npmPreapprovedPackages と同じ意図。
+  # safe-chain 側にも最小公開経過日数のフィルタがあるため、
+  # 自分たちのスコープだけ対象外にする（マルウェア検査自体は有効のまま）
+  SAFE_CHAIN_MINIMUM_PACKAGE_AGE_EXCLUSIONS: '@mitsuharu/*'
 
 on:
   pull_request:
