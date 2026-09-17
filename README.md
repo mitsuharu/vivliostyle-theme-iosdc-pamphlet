@@ -6,7 +6,10 @@ This is a Vivliostyle theme for techbook of iOSDC Japan pamphlet.
 
 ## Required
 
-- @vivliostyle/cli >= 9.3.2
+- @vivliostyle/cli >= 11.3.1
+
+Vivliostyle Themes v3（`@vivliostyle/theme-base` 3.x）系のテーマです。
+v2 系の CLI（`@vivliostyle/cli` 10 以下）では利用できません。
 
 ## Use
 
@@ -56,8 +59,8 @@ You can specify your CSS file and manuscript file for preview in vivliostyle.con
 
 ```js
 module.exports = {
-  language: 'en',
-  theme: ['node_modules/@vivliostyle/theme-base', '.'],
+  language: 'ja',
+  theme: ['.'],
   entry: [
       'example/default.md',
       // and more...
@@ -65,7 +68,7 @@ module.exports = {
 }
 ```
 
-Run `vivliostyle-theme-scripts validate` before publishing your package.
+Run `vivliostyle theme validate` before publishing your package.
 
 ```bash
 npm run validate
