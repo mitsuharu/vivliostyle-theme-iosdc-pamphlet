@@ -14,7 +14,6 @@
     "check-write": "biome check --write"
   },
   "dependencies": {
-    "@vivliostyle/theme-base": "3.0.0",
     "@vivliostyle/theme-techbook": "3.0.0"
   },
   "devDependencies": {
