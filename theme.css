@@ -17,6 +17,13 @@
 :root {
   --vs-font-weight: 400;
   --vs-line-height: 1.8;
+
+  /*
+   * 段落や見出しの間隔。既定では --vs-line-height から算出されるため、
+   * 行送りを広げると間隔まで広がってページ数が増えてしまう。
+   * 行送りとは切り離して、本文の組版で使ってきた 1.7rem に固定する。
+   */
+  --vs-spacing-rlh: 1.7rem;
   --vs-hyphens: auto;
   --vs-widows-orphans: 3;
 
@@ -41,7 +48,14 @@
   --vs-page--margin-top: 20mm;
   --vs-page--margin-bottom: 23mm;
 
-  /* 綴じ側（内側）と小口側（外側）の余白 */
+  /*
+   * 綴じ側（内側）と小口側（外側）の余白。
+   * theme-techbook が --vs-page--margin-left / -right を左右対称で設定しており、
+   * そちらが inside / outside より優先される。initial で打ち消して、
+   * 見開きに応じた余白が効くようにする。
+   */
+  --vs-page--margin-left: initial;
+  --vs-page--margin-right: initial;
   --vs-page--margin-inside: 20mm;
   --vs-page--margin-outside: 22mm;
 }
@@ -156,10 +170,11 @@ a:visited {
   --vs-theme-techbook--inline-code-color-body: #34495e;
 }
 
-code,
+code[class*="language-"],
 pre[class*="language-"] {
   /* ソースコードの文字サイズ。100% ならば基本サイズと同じ大きさになる */
   font-size: 100%;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.03rem;
 }
@@ -182,6 +197,15 @@ pre {
  */
 figure > img[width] {
   inline-size: attr(width px, auto);
+}
+
+/*
+ * theme-base v3 で --vs--figure-item-padding-inline の既定値が 0 になったため、
+ * 幅を指定していない画像が段いっぱいに広がり、v2 より約 1 割大きくなる。
+ * 原稿のページ数が変わってしまうので、従来どおりの余白に戻す。
+ */
+:root {
+  --vs--figure-item-padding-inline: var(--vs-spacing-inline-indent);
 }
 
 /* 図と表のキャプション */
