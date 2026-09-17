@@ -9,21 +9,20 @@
     "pdf": "vivliostyle build",
     "open": "open ./dist/book.pdf",
     "preview": "vivliostyle preview",
-    "validate": "vivliostyle-theme-scripts validate",
+    "validate": "vivliostyle theme validate",
     "check": "biome check",
     "check-write": "biome check --write"
   },
   "dependencies": {
-    "@vivliostyle/theme-base": "2.0.0",
-    "@vivliostyle/theme-techbook": "2.0.0"
+    "@vivliostyle/theme-base": "3.0.0",
+    "@vivliostyle/theme-techbook": "3.0.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.0.5",
-    "@vivliostyle/cli": "^9.3.2",
-    "vivliostyle-theme-scripts": "^0.3.6"
+    "@vivliostyle/cli": "11.3.3"
   },
   "peerDependencies": {
-    "@vivliostyle/cli": ">=9.3.2"
+    "@vivliostyle/cli": ">=11.3.1"
   },
   "peerDependenciesMeta": {
     "@vivliostyle/cli": {
