@@ -114,6 +114,15 @@ a:visited {
  * コードブロック（Prism）
  * -------------------------------------------------------------------------- */
 :root {
+  /*
+   * theme-base v3 は pre に font-family: var(--vs--pre-font-family) を宣言するが、
+   * この変数には既定値がないため、pre のフォントが本文フォントになってしまう。
+   * 見た目は中の code が等幅なので気づきにくいが、pre のストラット（行の高さの
+   * 基準）だけ別のフォントになるため、行ボックスが本来より高くなり、
+   * コードの多い原稿ではページ数が増えてしまう。
+   */
+  --vs--pre-font-family: var(--vs--monospace-font-family);
+
   --vs--pre-margin-block: 1.5rem;
   --vs--pre-border-width: 0.5px;
   --vs--pre-border-color: #1f2430;
