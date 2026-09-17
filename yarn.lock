@@ -287,7 +287,7 @@ __metadata:
   resolution: "@mitsuharu/vivliostyle-theme-iosdc-pamphlet@workspace:."
   dependencies:
     "@biomejs/biome": "npm:^2.0.5"
-    "@mitsuharu/vivliostyle-theme-noto-sans-jp": "npm:0.1.4"
+    "@mitsuharu/vivliostyle-theme-noto-sans-jp": "npm:0.2.0"
     "@vivliostyle/cli": "npm:11.3.3"
     "@vivliostyle/theme-techbook": "npm:3.0.0"
   peerDependencies:
@@ -298,17 +298,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@mitsuharu/vivliostyle-theme-noto-sans-jp@npm:0.1.4":
-  version: 0.1.4
-  resolution: "@mitsuharu/vivliostyle-theme-noto-sans-jp@npm:0.1.4"
-  dependencies:
-    "@vivliostyle/theme-base": "npm:>=1.0.0"
+"@mitsuharu/vivliostyle-theme-noto-sans-jp@npm:0.2.0":
+  version: 0.2.0
+  resolution: "@mitsuharu/vivliostyle-theme-noto-sans-jp@npm:0.2.0"
   peerDependencies:
-    "@vivliostyle/cli": ">=8.16.0"
+    "@vivliostyle/cli": ">=11.0.0"
+    "@vivliostyle/theme-base": ">=2.0.0"
   peerDependenciesMeta:
     "@vivliostyle/cli":
       optional: true
-  checksum: 10c0/9322f36efd312a07cb412b6d92c846d803b054ad3ce598c87b0c05f1b56a4589bd03dff733eb0a87a4bdc8c18e387adeb606cfdedc360403f48f9ccbefe85035
+    "@vivliostyle/theme-base":
+      optional: true
+  checksum: 10c0/81c218211320b66c83fcea649a553b04aeb5521c581400c0d6d38a5f77114b4940ad4104619b05f0d356f71a138fb87974be86eff65307a387f5e323d38d7583
   languageName: node
   linkType: hard
 
@@ -1226,7 +1227,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vivliostyle/theme-base@npm:3.0.0, @vivliostyle/theme-base@npm:>=1.0.0":
+"@vivliostyle/theme-base@npm:3.0.0":
   version: 3.0.0
   resolution: "@vivliostyle/theme-base@npm:3.0.0"
   peerDependencies:
