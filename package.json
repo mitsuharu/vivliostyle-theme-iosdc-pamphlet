@@ -18,6 +18,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^2.0.5",
+    "@mitsuharu/vivliostyle-theme-noto-sans-jp": "0.1.4",
     "@vivliostyle/cli": "11.3.3"
   },
   "peerDependencies": {
