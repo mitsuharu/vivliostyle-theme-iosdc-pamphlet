@@ -14,12 +14,12 @@
     "check-write": "biome check --write"
   },
   "dependencies": {
-    "@vivliostyle/theme-techbook": "3.0.0"
+    "@vivliostyle/theme-techbook": "3.1.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.0.5",
     "@mitsuharu/vivliostyle-theme-noto-sans-jp": "0.2.0",
-    "@vivliostyle/cli": "11.3.3"
+    "@vivliostyle/cli": "11.4.0"
   },
   "peerDependencies": {
     "@vivliostyle/cli": ">=11.3.1"
